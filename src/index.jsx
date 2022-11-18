@@ -1,4 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>React</h1>, document.getElementById("root"));
+import BomDia from "./Components/BomDia";
+
+ReactDOM.render( 
+    <div>
+    <Multi.BoaTarde name="Pedro" />
+    <Multi.BoaNoite name="Gabriela" />
+    </div>,
+  document.getElementById("root")
+);
